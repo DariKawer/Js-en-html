@@ -10,16 +10,20 @@
 <body>
 
     <script>
-        alert("Holaaaaa")
+        alert("Holaaaaa");
 
-        const nombre = prompt("Cual es tu nombre?")
+        const nombre = prompt("Cual es tu nombre?");
 
-        confirm(`Tu nombre es ${nombre} cierto?`)
+        confirm(`Tu nombre es ${nombre} cierto?`);
+
+        const frase = document.getElementByld('prueba');
+
+        frase.innerHTML = `<p>hola ${nombre}, queri ser mi amigo?</p>
 
     </script>
 
     <div class="contenedor">
-        <p>¿Quieres ser mi amigo?</p>
+        <p id="prueba">Probando</p>
         <button id="yesBtn">Si</button>
         <button id="noBtn">No</button>
     </div>
