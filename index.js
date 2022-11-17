@@ -1,7 +1,7 @@
 const yesBtn = document.querySelector('#yesBtn');
 
 yesBtn.addEventListener('click',function () {
-    alert('Ahora somos amigos XD')
+    alert('Ahora eres parte del clan de los pendejos informaticos XD')
 });
 
 const noBtn = document.querySelector('#noBtn');
